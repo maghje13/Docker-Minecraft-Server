@@ -7,7 +7,7 @@ Pull the image: ```docker pull maghje13/minecraft-server-1.20.4```
 Run the container: ```docker run -dt minecraft-server-1.20.4```
 
 ## Building the image yourself (Optional)
-```docker build -t <name> .```
+```docker build -t "name" .```
 
 #### (Replace "name" with what you wanna call the image of couse!)
 ## Modifying the server settings
