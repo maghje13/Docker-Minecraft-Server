@@ -4,7 +4,7 @@ A minecraft server running on 1.20.4
 ## Running
 Pull the image: ```docker pull maghje13/minecraft-server-1.20.4```
 
-Run the container: ```docker run -dt minecraft-server-1.20.4```
+Run the container: ```docker run -it -p 25565:25565 minecraft-server-1.20.4```
 
 ## Building the image yourself (Optional)
 ```docker build -t "name" .```
